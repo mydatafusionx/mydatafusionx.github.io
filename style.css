@@ -183,6 +183,179 @@ footer {
   margin-top: 3rem;
 }
 
+/* --- BENEFITS --- */
+.benefits {
+  background: var(--white);
+  padding: 3rem 1rem 2rem 1rem;
+  max-width: 1200px;
+  margin: 2rem auto 2rem auto;
+  border-radius: 24px;
+  box-shadow: 0 4px 32px rgba(10,10,35,0.07);
+}
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 2.2rem;
+  color: var(--primary);
+}
+.benefit-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.benefit-card {
+  flex: 1 1 250px;
+  min-width: 240px;
+  max-width: 340px;
+  background: var(--gray);
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(10,10,35,0.06);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-top: 4px solid var(--secondary);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.benefit-card h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
+}
+.benefit-card p {
+  color: #444;
+  font-size: 1rem;
+}
+.benefit-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(33,150,243,0.10);
+  border-top: 4px solid var(--accent);
+}
+
+/* --- PIPELINE --- */
+.pipeline {
+  background: var(--primary);
+  color: var(--white);
+  padding: 3rem 1rem 2rem 1rem;
+  max-width: 1200px;
+  margin: 2rem auto 2rem auto;
+  border-radius: 24px;
+  box-shadow: 0 4px 32px rgba(10,10,35,0.07);
+}
+.pipeline h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.pipeline-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pipeline-step {
+  flex: 1 1 250px;
+  min-width: 240px;
+  max-width: 340px;
+  background: var(--white);
+  color: var(--primary);
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(10,10,35,0.06);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-top: 4px solid var(--accent);
+}
+.pipeline-step h4 {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+.pipeline-step p {
+  color: #444;
+  font-size: 1rem;
+}
+
+/* --- LAKEHOUSE, AI, DEVOPS, STANDARDS --- */
+.lakehouse, .ai, .devops, .standards {
+  background: var(--white);
+  padding: 2.5rem 1rem 2rem 1rem;
+  max-width: 900px;
+  margin: 2rem auto 2rem auto;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(10,10,35,0.06);
+  text-align: center;
+}
+.lakehouse h2, .ai h2, .devops h2, .standards h2 {
+  color: var(--primary);
+  margin-bottom: 1.2rem;
+}
+.lakehouse p, .ai p, .devops p, .standards p {
+  color: #444;
+  font-size: 1.1rem;
+}
+
+/* --- TESTIMONIAL --- */
+.testimonial {
+  background: var(--secondary);
+  color: var(--white);
+  padding: 2.5rem 1rem;
+  max-width: 700px;
+  margin: 2rem auto 2rem auto;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(10,10,35,0.06);
+  text-align: center;
+}
+.testimonial blockquote {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.testimonial span {
+  display: block;
+  font-size: 1rem;
+  margin-top: 0.7rem;
+  color: var(--white);
+  font-weight: 700;
+}
+
+/* --- CTA FINAL --- */
+.cta-final {
+  background: var(--accent);
+  color: var(--white);
+  padding: 2.5rem 1rem;
+  max-width: 900px;
+  margin: 2rem auto 2rem auto;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(10,10,35,0.06);
+  text-align: center;
+}
+.cta-final h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+.cta-final .btn-primary {
+  background: var(--primary);
+  color: var(--white);
+  font-size: 1.1rem;
+  padding: 1rem 2.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 1rem;
+  display: inline-block;
+  transition: background 0.2s;
+}
+.cta-final .btn-primary:hover {
+  background: var(--secondary);
+}
+
+@media (max-width: 900px) {
+  .benefit-list, .pipeline-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
+
+
 @media (max-width: 900px) {
   .hero {
     flex-direction: column;
