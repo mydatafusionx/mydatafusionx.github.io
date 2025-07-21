@@ -5,7 +5,7 @@
   */body {
       font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
       padding-top: 540px;
-      color: #868e96
+      color: #1b3a6b
   }
   
   @media (min-width:881px) {
@@ -24,7 +24,7 @@
       font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
       font-weight: 800;
       text-transform: uppercase;
-      color: #343a40
+      color: #1b3a6b
   }
   
   h1 {
@@ -56,7 +56,7 @@
       display: inline-block;
       height: 3.5rem;
       width: 3.5rem;
-      background-color: #495057;
+      background-color: #d72638;
       color: #fff!important;
       border-radius: 100%;
       text-align: center;
@@ -70,7 +70,7 @@
   }
   
   .social-icons a:hover {
-      background-color: #495057
+      background-color: #d72638
   }
   
   .dev-icons {
@@ -78,7 +78,7 @@
   }
   
   .dev-icons .list-inline-item i:hover {
-      color: #495057
+      color: #d72638
   }
   
   #sideNav .navbar-nav .nav-item .nav-link {
@@ -88,7 +88,7 @@
   }
   
   #sideNav .navbar-toggler:focus {
-      outline-color: #868e96
+      outline-color: #1b3a6b
   }
   
   @media (min-width:800px) {
@@ -158,15 +158,15 @@
   }
   
   .bg-primary {
-      background-color: #495057!important
+      background-color: #d72638!important
   }
   
   .text-primary {
-      color: #495057!important
+      color: #d72638!important
   }
   
   a {
-      color: #495057
+      color: #d72638
   }
   
   a:active,
