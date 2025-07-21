@@ -134,9 +134,11 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: auto;
+  display: flex !important;
+  align-items: flex-start;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -145,17 +147,17 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: auto;
   }
   section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
+    min-width: none;
   }
 }
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
   }
 }
 
@@ -165,6 +167,24 @@ section.resume-section .resume-item .resume-date {
 
 .text-primary {
   color: #1b3a6b !important;
+}
+
+.text-phr.m-0 {
+    margin: 0 !important;
+    border-width: 1px 0 0 0;
+}
+
+.resume-section + .resume-section {
+    margin-top: 0 !important;
+}
+
+ul, ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-section h2.mb-5 {
+    margin-bottom: 1.5rem !important;
 }
 
 a {
