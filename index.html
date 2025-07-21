@@ -1,55 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="DataFusionX - Engenharia de Dados, Pipelines, Automação e Observabilidade">
-  <title>DataFusionX | Engenharia de Dados</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data FusionX - Big Data Analytic Solution</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
 </head>
-<body class="bg-gray-900 text-white font-sans">
-
-  <!-- Header -->
-  <header class="text-center py-10">
-    <img src="logo.jpeg" alt="Logo DataFusionX" class="mx-auto w-24 mb-4 rounded-lg shadow-lg">
-    <h1 class="text-4xl font-bold">DataFusionX</h1>
-    <p class="text-lg mt-2 text-gray-300">Engenharia de Dados • Pipelines • Automação • Observabilidade</p>
-  </header>
-
-  <!-- Serviços -->
-  <section class="py-12 px-4 text-center bg-gray-800">
-    <h2 class="text-2xl font-semibold mb-4">🚀 Nossos Serviços</h2>
-    <p class="mb-6 text-gray-300">
-      Projetos com Spark, Airflow, DBT, Kafka, CI/CD, Deploy em Kubernetes e muito mais.
-    </p>
-    <a href="#portfolio" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-      Ver Portfólio
-    </a>
-  </section>
-
-  <!-- Portfólio -->
-  <section id="portfolio" class="py-12 px-4 text-center">
-    <h2 class="text-2xl font-semibold mb-6">🧠 Portfólio</h2>
-    <ul class="space-y-4 text-gray-300">
-      <li>📦 Ingestão de APIs REST com Delta Lake</li>
-      <li>🧬 CDC com PostgreSQL + Kafka + Spark</li>
-      <li>📊 DBT + Airflow + GitOps</li>
-      <li>🐇 RabbitMQ + Spark + API REST</li>
-      <li>☁️ Kubernetes + Helm + Observabilidade</li>
-    </ul>
-  </section>
-
-  <!-- Contato -->
-  <section class="py-12 px-4 bg-gray-800 text-center">
-    <h2 class="text-2xl font-semibold mb-4">📬 Contato</h2>
-    <p class="text-gray-300">Email: <a href="mailto:contato@datafusionx.com" class="text-blue-400 hover:underline">contato@datafusionx.com</a></p>
-    <p class="text-gray-300">LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank" class="text-blue-400 hover:underline">linkedin.com/in/seuusuario</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer class="text-center py-6 bg-gray-900 text-sm text-gray-500">
-    © 2025 DataFusionX. Todos os direitos reservados.
-  </footer>
-
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Data FusionX Logo">
+                <span>DATA FUSIONX</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="#" class="cta">Comece Agora</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="tagline">Moderno. Profissional. Confiável.</span>
+                <h1>Big Data Analytic Solution</h1>
+                <p>Transforme dados em decisões estratégicas com as soluções inteligentes da Data FusionX.</p>
+                <a href="#" class="btn-primary">Experimente Grátis</a>
+            </div>
+            <div class="hero-img">
+                <img src="assets/hero-illustration.svg" alt="Ilustração Big Data">
+            </div>
+        </section>
+        <section class="services" id="servicos">
+            <div class="service-card">
+                <h3>Gestão de Sistemas de Dados</h3>
+                <p>Organize, integre e otimize seus dados para máxima eficiência.</p>
+            </div>
+            <div class="service-card">
+                <h3>Implementação de Soluções</h3>
+                <p>Implantação ágil e personalizada de ferramentas analíticas.</p>
+            </div>
+            <div class="service-card">
+                <h3>Análise Avançada</h3>
+                <p>Obtenha insights poderosos e tome decisões baseadas em dados.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Data FusionX. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
